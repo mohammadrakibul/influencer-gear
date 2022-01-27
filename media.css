@@ -1,0 +1,267 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      /* Common Start */
+      .common-heading {
+          margin-bottom: 20px;
+          font-size: 20px;
+      }
+      .container{
+          width: 95%;
+      }
+      /* Common End */
+      /* Header Start */
+      .header-top{
+          padding: 35px 0 25px;
+          flex-direction: column;
+          justify-content: center;
+      }
+      .logo a {
+          font-size: 16px;
+      }
+      nav{
+          margin-top: 5px;
+      }
+      nav ul li {
+          margin-right: 12px;
+      }
+      nav ul li a, nav ul li:last-child a i{
+          font-size: 14px;
+      }
+      .header-bottom{
+          flex-direction: column;
+      }
+      .header-left{
+          padding-right: 0;
+          text-align: center;
+          order: 2;
+      }
+      .header-left h1 {
+          font-size: 28px;
+          line-height: 42px;
+      }
+      .header-left p {
+          margin: 15px 0 20px;
+          font-size: 14px;
+          line-height: 21px;
+      }
+      .header-right{
+          order: 1;
+      }
+      .header-img1 img{
+          width: 257px;
+          height: 257px;
+      }
+      .header-img2 {
+          top: 40px;
+          left: 30px;
+      }
+      .header-img2 img{
+          width: 202px;
+          height: 190px;
+      }
+      /* Header End */
+      /* Popular Collection Start */
+      .container-two{
+          width: 90%;
+      }
+      .popular-collection {
+          padding: 60px 0 50px;
+      }
+      .all-collection{
+          margin-bottom: 32px;
+          grid-template-columns: repeat(1, 1fr);  
+          grid-row-gap: 15px;
+      }
+      .single-collection img {
+          width: 100%;
+      }
+      .collection-h3 {
+          margin: 8px 0 5px;
+          font-weight: 600;
+      }
+      .collection-h4 {
+          font-weight: 700;
+      }
+      .collection-p {
+          font-weight: 400;
+      }
+      /* Popular Collection End */
+      /* Services Start */
+      .services{
+          padding-bottom: 50px;
+      }
+      .all-services{
+          grid-template-columns: repeat(1, 1fr);
+          grid-row-gap: 20px;
+      }
+      .service-icon a i {
+          border: 15px solid #E02C6D;
+          font-size: 35px;
+      }
+      .service-h4 {
+          margin: 5px 0 3px;
+          font-size: 16px;
+      }
+      .service-p {
+          font-size: 14px;
+      }
+      /* Services End */
+      /* Footer Start */
+      .footer-content h2 {
+          font-size: 16px;
+      }
+      .footer-content p {
+          font-size: 12px;
+      }
+      .social-icon a {
+          margin-right: 7px;
+          padding: 7px 9px 5px;
+      }
+      .social-icon a i {
+          font-size: 16px;
+      }
+      /* Footer End */
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+      /* Common Start */
+      .common-heading {
+          margin-bottom: 30px;
+      }
+      .container{
+          width: 95%;
+      }
+      /* Common End */
+      /* Header Start */
+      .header-top{
+          padding: 35px 0;
+          flex-direction: column;
+          justify-content: center;
+      }
+      nav{
+          margin-top: 10px;
+      }
+      .header-bottom{
+          flex-direction: column;
+      }
+      .header-left{
+          padding-right: 0;
+          text-align: center;
+          order: 2;
+      }
+      .header-left h1 {
+          font-size: 36px;
+          line-height: 50px;
+      }
+      .header-right{
+          order: 1;
+      }
+      .header-img1 img{
+          width: 400px;
+          height: 400px;
+      }
+      .header-img2 {
+          top: 50px;
+          left: 35px;
+      }
+      .header-img2 img{
+          width: 322px;
+          height: 300px;
+      }
+      /* Header End */
+      /* Popular Collection Start */
+      .container-two{
+          width: 85%;
+      }
+      .popular-collection {
+          padding: 70px 0;
+      }
+      .all-collection{
+          grid-template-columns: repeat(1, 1fr);  
+      }
+      .single-collection img {
+          width: 100%;
+      }
+      /* Popular Collection End */
+      /* Services Start */
+      .services{
+          padding-bottom: 70px;
+      }
+      .all-services{
+          grid-template-columns: repeat(1, 1fr);
+          grid-row-gap: 30px;
+      }
+      /* Services End */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+      /* Common Start */
+      .common-heading {
+          margin-bottom: 40px;
+      }
+      .container{
+          width: 95%;
+      }
+      /* Common End */
+      /* Header Start */
+      .header-top{
+          padding: 50px 0 60px;
+      }
+      .header-bottom{
+          flex-direction: column;
+      }
+      .header-left{
+          padding-right: 0;
+          text-align: center;
+          order: 2;
+      }
+      .header-right{
+          order: 1;
+      }
+      /* Header End */
+      /* Popular Collection Start */
+      .container-two{
+          width: 93%;
+      }
+      .popular-collection {
+          padding: 80px 0;
+      }
+      .all-collection{
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 30px 50px;
+      }
+      /* Popular Collection End */
+      /* Services Start */
+      .services{
+          padding-bottom: 80px;
+      }
+      .all-services{
+          grid-template-columns: repeat(2, 1fr);
+          grid-column-gap: 40px;
+          grid-row-gap: 30px;
+      }
+      /* Services End */
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+      .single-collection img{
+          width: 216px;
+          height: 172px;
+      }
+  }
+  
+  /* Extra large device (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1299) {}
+  
+  /* Extra extra large devices (extra large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+      .container {
+          width: 83%;
+      }
+      .container-two {
+          width: 72%;
+      }
+  }
